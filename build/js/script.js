@@ -1,0 +1,1 @@
+$(document).ready(function(){var o=!0;$(window).on("scroll",function(){if(!o)return!1;var n=$(window).scrollTop();$("#counts").offset().top<=n+525&&($(".spincrement").spincrement({duration:1600}),o=!1)}),$(".our-work__img-container_img-wrap_item").magnificPopup({type:"image",removalDelay:300,mainClass:"mfp-fade"}),AOS.init({duration:1200,once:!0})});

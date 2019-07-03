@@ -1,0 +1,42 @@
+@media screen and (max-width: 1200px) {
+  html {
+    display: flex;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  body .navbar .navbar-nav .nav-item .nav-link {
+    line-height: 6rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  body .navbar .navbar-nav .nav-item .nav-link:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  body .contacts .contacts__info {
+    position: relative;
+    right: 0;
+    transform: translate(0);
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    top: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  body .our-work .our-work__img-container {
+    margin-bottom: 0;
+  }
+  body .services .services__info h2 {
+    padding-top: 1rem;
+  }
+}
